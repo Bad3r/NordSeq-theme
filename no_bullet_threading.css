@@ -1021,46 +1021,78 @@ html[data-theme=dark] #app-container::before {
 
 .dark-theme,
 html[data-theme=dark] {
-  --ct-primary-color: #a3cef1;
-  --ct-secondary-color: #6096ba;
-  --ct-warning-color: #ff7262;
-  --ct-success-color: #0dcf82;
-  --ct-highlight-color: #d3a400;
-  --color-level-1: #313942;
-  --color-level-2: #38434c;
-  --color-level-3: #404b55;
-  --color-level-4: #525f6b;
-  --color-level-5: #606e7a;
-  --color-level-6: #697885;
-  --ls-primary-background-color: #272c35;
-  --ls-secondary-background-color: var(--color-level-1);
-  --ls-tertiary-background-color: var(--color-level-2);
-  --ls-quaternary-background-color: var(--color-level-3);
-  --ls-border-color: var(--ls-tertiary-background-color);
-  --ls-table-tr-even-background-color: var(--ls-secondary-background-color);
-  --ls-primary-text-color: rgb(235, 235, 235);
-  --ls-secondary-text-color: rgb(200, 200, 200);
-  --ct-bold-color: #fff;
-  --ls-link-text-color: var(--ct-primary-color);
-  --ls-link-ref-text-color: var(--ct-primary-color);
-  --ls-link-ref-text-hover-color: var(--ct-secondary-color);
-  --ls-active-primary-color: var(--ct-primary-color);
-  --ls-active-secondary-color: var(--ct-secondary-color);
-  --ls-external-link-color: var(--ct-secondary-color);
-  --ls-guideline-color: var(--ls-tertiary-background-color);
-  --ls-block-bullet-color: var(--ls-tertiary-background-color);
-  --ls-bullet-closed-color: var(--ls-secondary-text-color);
-  --ls-block-bullet-border-color: var(--ls-quaternary-background-color);
-  --ct-block-arrow-color: rgb(165, 165, 165);
-  --ct-page-reference-color: var(--ls-active-primary-color);
-  --ls-icon-color: var(--ls-primary-text-color);
-  --ct-block-reference-background: rgba(16, 107, 163, 0.2);
-  --ct-block-reference-background-hover: rgba(16, 107, 163, 0.3);
-  --ls-page-properties-background-color: var(--ls-tertiary-background-color);
-  --ls-scrollbar-foreground-color: var(--ls-secondary-background-color);
-  --ct-header-bg-color: #272c35ee;
-  --ls-selection-color: #000;
-  --ls-block-highlight-color: #32445a;
+  --ct-primary-color: #2e3440;
+  /* dark blue from Nord theme */
+  --ct-secondary-color: #eceff4;
+  /* medium blue from Nord theme */
+  --ct-warning-color: #ebcb8b;
+  --ct-success-color: #a3be8c;
+  /* pale blue from Nord theme */
+  --ct-highlight-color: #ECEFF4;
+  /* snowstorm from Nord theme */
+  --color-level-1: #2E3440;
+  /* dark blue-gray from Nord theme */
+  --color-level-2: #3B4252;
+  /* dark blue from Nord theme */
+  --color-level-3: #434C5E;
+  /* medium blue from Nord theme */
+  --color-level-4: #4C566A;
+  /* light blue from Nord theme */
+  --color-level-5: #D8DEE9;
+  /* pale blue from Nord theme */
+  --color-level-6: #ECEFF4;
+  /* snowstorm from Nord theme */
+  --ls-primary-background-color: #2e3440;
+  /* dark blue from Nord theme */
+  --ls-secondary-background-color: #eceff4;
+  /* dark blue-gray from Nord theme */
+  --ls-tertiary-background-color: #a3be8c;
+  --ls-quaternary-background-color: #3b4252;
+  /* light blue from Nord theme */
+  --ls-border-color: #3b4252;
+  --ls-table-tr-even-background-color: #2E3440;
+  /* dark blue-gray from Nord theme */
+  --ls-primary-text-color: #ECEFF4;
+  /* snowstorm from Nord theme */
+  --ls-secondary-text-color: #D8DEE9;
+  /* pale blue from Nord theme */
+  --ct-bold-color: #8fbcbb;
+  --ls-link-text-color: #3B4252;
+  /* dark blue from Nord theme */
+  --ls-link-ref-text-color: #3B4252;
+  /* dark blue from Nord theme */
+  --ls-link-ref-text-hover-color: #434C5E;
+  /* medium blue from Nord theme */
+  --ls-active-primary-color: #8FBCBB;
+  /* blue-gray from Nord theme */
+  --ls-active-secondary-color: #88C0D0;
+  /* frost from Nord theme */
+  --ls-external-link-color: #88C0D0;
+  /* frost from Nord theme */
+  --ls-guideline-color: #4C566A;
+  /* light blue from Nord theme */
+  --ls-block-bullet-color: #4C566A;
+  /* light blue from Nord theme */
+  --ls-bullet-closed-color: #E5E9F0;
+  /* extra pale blue from Nord theme */
+  --ls-block-bullet-border-color: #D8DEE9;
+  /* pale blue from Nord theme */
+  --ct-block-arrow-color: #A5A5A5;
+  /* gray from Nord theme */
+  --ct-page-reference-color: #8FBCBB;
+  /* blue-gray from Nord theme */
+  --ls-icon-color: #ECEFF4;
+  /* snowstorm from Nord theme */
+  --ct-block-reference-background: #3b4252;
+  --ct-block-reference-background-hover: #8fbcbb;
+  --ls-page-properties-background-color: #4C566A;
+  /* light blue from Nord theme */
+  --ls-scrollbar-foreground-color: #2E3440;
+  /* dark blue-gray from Nord theme */
+  --ct-header-bg-color: rgba(0, 0, 0, 0.1);
+  --ls-selection-color: rgba(46, 52, 64, 1).;
+  /* dark blue-gray from Nord theme */
+  --ls-block-highlight-color: rgba(0, 0, 0, 0.2);
 }
 
 .dark-theme .image-resize {
